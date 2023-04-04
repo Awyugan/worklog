@@ -1,0 +1,42 @@
+2023-04-04 13:02:33,757 INFO 日志保存成功：13:02 吃饭
+
+2023-04-04 13:02:54,567 INFO 日志保存成功：13:02 喝水
+
+2023-04-04 13:03:07,802 INFO 日志保存成功：13:03 睡觉
+
+2023-04-04 13:04:12,414 INFO 日志保存成功：13:03 想你
+
+2023-04-04 13:06:47,194 INFO 日志保存成功：13:06 完成快捷日志
+
+2023-04-04 13:13:33,360 INFO 日志保存成功：13:13 打包worklog
+
+2023-04-04 13:16:43,854 ERROR 保存日志失败：[Errno 2] No such file or directory: ''
+Traceback (most recent call last):
+  File "/Users/polan/Downloads/worklog/worklog.py", line 27, in <module>
+    os.makedirs(save_dir)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileNotFoundError: [Errno 2] No such file or directory: ''
+2023-04-04 13:16:53,262 ERROR 保存日志失败：[Errno 2] No such file or directory: ''
+Traceback (most recent call last):
+  File "/Users/polan/Downloads/worklog/worklog.py", line 27, in <module>
+    os.makedirs(save_dir)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileNotFoundError: [Errno 2] No such file or directory: ''
+2023-04-04 13:20:17,826 INFO 日志保存成功：13:20 修改保存目录变为可选择
+
+2023-04-04 13:20:38,708 INFO 日志保存成功：13:20 建立可视化窗口
+
+2023-04-04 13:22:15,494 INFO 日志保存成功：13:22 修改保存文件名
+
+2023-04-04 13:24:58,485 INFO 日志保存成功：13:24 增加居中弹出，增加默认保存目录
+
+2023-04-04 13:28:02,884 INFO 日志保存成功：13:28 更新选择的目录替换为新的默认保存目录
+
+2023-04-04 13:29:20,759 INFO 日志保存成功：13:29 默认保存目录出错，再次测试
+
+2023-04-04 13:31:18,073 INFO 日志保存成功：13:31 给默认保存目录加一个配置文件
+
+2023-04-04 13:31:31,307 INFO 日志保存成功：13:31 默认保存目录成功
+
